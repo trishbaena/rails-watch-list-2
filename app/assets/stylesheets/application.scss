@@ -10,3 +10,88 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://source.unsplash.com/random/?movie');
+  height: 480px;
+  text-align: center;    background-size: cover;
+
+  h1 {
+    line-height: 480px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 60px;
+  }
+}
+
+.list-text {
+  display: flex;
+  padding: 20px;
+
+  .btn {
+    margin-left: auto;
+  }
+}
+
+.list-card {
+  width: 20vw;
+  height: 16vw;
+  text-align: center;
+
+  h2 {
+    line-height: 16vw;
+    font-weight: bold;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.banner-list {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://source.unsplash.com/random/?movie,theater');
+  height: 480px;
+  text-align: center;
+  background-size: cover;
+
+  .banner-list-header {
+    height: inherit;
+    padding-top: 160px;
+
+    h1 {
+      color: antiquewhite;
+      font-weight: bold;
+      font-size: 60px;
+    }
+  }
+}
+
+.new-list {
+  margin-top: 24px;
+}
+
+.movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-card {
+  max-height: 500px;
+  width: 500px;
+  border: 1px solid grey;
+  margin: 0 20px 20px 0;
+  padding: 8px;
+
+  .poster-img {
+    height: 200px;
+    object-fit: cover;
+    width: 484px;
+  }
+}
+
+.movie-card-text {
+  padding: 12px;
+}
